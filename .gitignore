@@ -21,8 +21,6 @@ Project Outputs for*
 History
 
 #Exports, but not manual ones
-exports/*
-!exports/manual
 
 #Python stuff
 scripts/__pycache__/
