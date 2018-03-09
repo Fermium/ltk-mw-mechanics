@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: ltk-mw_center_disc_200mm.GBR   3/2/2018  8:33:03 PM
+Gerber File Extension Report For: ltk-mw_center_disc_200mm.GBR   3/9/2018  6:24:54 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -7,6 +7,13 @@ Gerber File Extension Report For: ltk-mw_center_disc_200mm.GBR   3/2/2018  8:33:
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
 .GTL                Top Layer                               
-.GTO                Top Overlay                             
+.GTP                Top Paste                               
 .GTS                Top Solder                              
+.GTO                Top Overlay                             
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBO                Bottom Overlay                          
+.GKO                Keep-Out Layer                          
+.GBP                Bottom Paste                            
+.GM1                Mechanical 1                            
 ------------------------------------------------------------------------------------------

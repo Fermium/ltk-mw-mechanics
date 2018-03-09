@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: ltk_mw_double_slot.GBR   3/2/2018  8:33:04 PM
+Gerber File Extension Report For: ltk_mw_double_slot.GBR   3/9/2018  6:24:55 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -7,6 +7,13 @@ Gerber File Extension Report For: ltk_mw_double_slot.GBR   3/2/2018  8:33:04 PM
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
 .GTL                Top Layer                               
-.GTS                Top Solder                              
+.GTP                Top Paste                               
+.GBL                Bottom Layer                            
 .GTO                Top Overlay                             
+.GTS                Top Solder                              
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GBS                Bottom Solder                           
+.GKO                Keep-Out Layer                          
+.GM1                Mechanical 1                            
 ------------------------------------------------------------------------------------------

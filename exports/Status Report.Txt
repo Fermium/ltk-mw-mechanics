@@ -1,15 +1,11 @@
-Output: fresnel_plates
-Type  : Gerber
-From  : Variant [[No Variations]] of PCB Document [ltk_mw_fresnel_plates.PcbDoc]
-   Generated File[ltk_mw_fresnel_plates.GTO]
-   Generated File[ltk_mw_fresnel_plates.GTS]
-   Generated File[ltk_mw_fresnel_plates.GTL]
-   Generated File[ltk_mw_fresnel_plates.RUL]
-   Generated File[ltk_mw_fresnel_plates.EXTREP]
-   Generated File[ltk_mw_fresnel_plates.REP]
+Output: photon_sieve
+Type  : NC Drill
+From  : PCB Document [ltk-mw_photon_sieve.PcbDoc]
+   Generated File[ltk-mw_photon_sieve.LDP]
+   Generated File[ltk-mw_photon_sieve.DRR]
 
 
-Files Generated   : 6
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 8:33:04 PM On 3/2/2018
+Finished Output Generation At 6:24:57 PM On 3/9/2018
