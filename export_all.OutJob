@@ -34,9 +34,9 @@ OutputMedium3_Type=GeneratedFiles
 OutputMedium4=Video
 OutputMedium4_Type=Multimedia
 OutputType1=Gerber
-OutputName1=center_disc
+OutputName1=mirror
 OutputCategory1=Fabrication
-OutputDocumentPath1=ltk-mw_center_disc_200mm.PcbDoc
+OutputDocumentPath1=ltk-mw_mirror.PcbDoc
 OutputVariantName1=
 OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
@@ -47,9 +47,9 @@ OutputDefault1=0
 Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 OutputType2=NC Drill
-OutputName2=center_disc
+OutputName2=mirror
 OutputCategory2=Fabrication
-OutputDocumentPath2=ltk-mw_center_disc_200mm.PcbDoc
+OutputDocumentPath2=ltk-mw_mirror.PcbDoc
 OutputVariantName2=
 OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
@@ -60,7 +60,7 @@ OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
 Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
 OutputType3=PCB Print
-OutputName3=PCB Prints
+OutputName3=1
 OutputCategory3=Documentation
 OutputDocumentPath3=ltk_mw_double_slot.PcbDoc
 OutputVariantName3=
@@ -85,7 +85,7 @@ Configuration3_Name6=OutputConfigurationParameter6
 Configuration3_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 PcbPrintPreferences3=
 OutputType4=PCB Print
-OutputName4=Copy of PCB Prints
+OutputName4=2
 OutputCategory4=Documentation
 OutputDocumentPath4=ltk_mw_fresnel_plates.PcbDoc
 OutputVariantName4=
@@ -110,9 +110,9 @@ Configuration4_Name6=OutputConfigurationParameter6
 Configuration4_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 PcbPrintPreferences4=
 OutputType5=PCB Print
-OutputName5=Copy of Copy of PCB Prints
+OutputName5=3
 OutputCategory5=Documentation
-OutputDocumentPath5=ltk-mw_center_disc_200mm.PcbDoc
+OutputDocumentPath5=ltk-mw_mirror.PcbDoc
 OutputVariantName5=
 OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
@@ -133,7 +133,7 @@ Configuration5_Name5=OutputConfigurationParameter5
 Configuration5_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 PcbPrintPreferences5=
 OutputType6=PCB Print
-OutputName6=Copy of Copy of Copy of PCB Prints
+OutputName6=4
 OutputCategory6=Documentation
 OutputDocumentPath6=ltk-mw_photon_sieve.PcbDoc
 OutputVariantName6=
@@ -235,6 +235,57 @@ OutputEnabled12_OutputMedium4=0
 OutputDefault12=0
 Configuration12_Name1=OutputConfigurationParameter1
 Configuration12_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
+OutputType13=Gerber
+OutputName13=polarizer
+OutputCategory13=Fabrication
+OutputDocumentPath13=ltk-mw_polarizer.PcbDoc
+OutputVariantName13=
+OutputEnabled13=1
+OutputEnabled13_OutputMedium1=0
+OutputEnabled13_OutputMedium2=0
+OutputEnabled13_OutputMedium3=9
+OutputEnabled13_OutputMedium4=0
+OutputDefault13=0
+Configuration13_Name1=OutputConfigurationParameter1
+Configuration13_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+OutputType14=NC Drill
+OutputName14=polarizer
+OutputCategory14=Fabrication
+OutputDocumentPath14=ltk-mw_polarizer.PcbDoc
+OutputVariantName14=
+OutputEnabled14=1
+OutputEnabled14_OutputMedium1=0
+OutputEnabled14_OutputMedium2=0
+OutputEnabled14_OutputMedium3=10
+OutputEnabled14_OutputMedium4=0
+OutputDefault14=0
+Configuration14_Name1=OutputConfigurationParameter1
+Configuration14_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
+OutputType15=PCB Print
+OutputName15=5
+OutputCategory15=Documentation
+OutputDocumentPath15=ltk-mw_polarizer.PcbDoc
+OutputVariantName15=
+OutputEnabled15=0
+OutputEnabled15_OutputMedium1=0
+OutputEnabled15_OutputMedium2=5
+OutputEnabled15_OutputMedium3=0
+OutputEnabled15_OutputMedium4=0
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration15_Name1=OutputConfigurationParameter1
+Configuration15_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration15_Name2=OutputConfigurationParameter2
+Configuration15_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration15_Name3=OutputConfigurationParameter3
+Configuration15_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration15_Name4=OutputConfigurationParameter4
+Configuration15_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration15_Name5=OutputConfigurationParameter5
+Configuration15_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration15_Name6=OutputConfigurationParameter6
+Configuration15_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+PcbPrintPreferences15=
 
 [PublishSettings]
 OutputFilePath2=Z:\Work\ltk-mw-mechanics\exports\export_all.PDF
