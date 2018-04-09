@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: Z:\Work\ltk-mw-mechanics\ltk-mw_device_protractor.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=ltk-mw_device_protractor.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Rect_Holes|DrillFile=ltk-mw_device_protractor-rectholes.txt|DrillLayers=gtl,gbl

@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: ltk-mw_photon_sieve.GBR   4/9/2018  6:45:50 PM
+Gerber File Extension Report For: ltk-mw_center_protractor.GBR   4/9/2018  6:45:54 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -7,12 +7,12 @@ Gerber File Extension Report For: ltk-mw_photon_sieve.GBR   4/9/2018  6:45:50 PM
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
 .GTL                Top Layer                               
-.GTP                Top Paste                               
-.GTO                Top Overlay                             
-.GBL                Bottom Layer                            
 .GTS                Top Solder                              
-.GBS                Bottom Solder                           
+.GBL                Bottom Layer                            
 .GBP                Bottom Paste                            
+.GBS                Bottom Solder                           
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
 .GBO                Bottom Overlay                          
 .GKO                Keep-Out Layer                          
 .GM1                Mechanical 1                            

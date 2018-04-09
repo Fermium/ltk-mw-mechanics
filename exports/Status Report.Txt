@@ -1,11 +1,13 @@
-Output: polarizer
+Output: device_protractor
 Type  : NC Drill
-From  : PCB Document [ltk-mw_polarizer.PcbDoc]
-   Generated File[ltk-mw_polarizer.LDP]
-   Generated File[ltk-mw_polarizer.DRR]
+From  : PCB Document [ltk-mw_device_protractor.PcbDoc]
+   Generated File[ltk-mw_device_protractor.TXT]
+   Generated File[ltk-mw_device_protractor-RectHoles.TXT]
+   Generated File[ltk-mw_device_protractor.LDP]
+   Generated File[ltk-mw_device_protractor.DRR]
 
 
-Files Generated   : 2
+Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 3:56:02 PM On 4/6/2018
+Finished Output Generation At 6:46:01 PM On 4/9/2018

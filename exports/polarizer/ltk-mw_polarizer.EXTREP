@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: ltk-mw_polarizer.GBR   4/6/2018  3:56:01 PM
+Gerber File Extension Report For: ltk-mw_polarizer.GBR   4/9/2018  6:45:51 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -7,13 +7,13 @@ Gerber File Extension Report For: ltk-mw_polarizer.GBR   4/6/2018  3:56:01 PM
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
 .GTL                Top Layer                               
-.GTO                Top Overlay                             
 .GTP                Top Paste                               
+.GTO                Top Overlay                             
 .GBL                Bottom Layer                            
 .GTS                Top Solder                              
-.GBS                Bottom Solder                           
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
-.GKO                Keep-Out Layer                          
+.GBS                Bottom Solder                           
 .GM1                Mechanical 1                            
+.GKO                Keep-Out Layer                          
 ------------------------------------------------------------------------------------------

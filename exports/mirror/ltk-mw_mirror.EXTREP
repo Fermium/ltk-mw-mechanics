@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: ltk-mw_mirror.GBR   4/6/2018  3:55:58 PM
+Gerber File Extension Report For: ltk-mw_mirror.GBR   4/9/2018  6:45:41 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -7,11 +7,11 @@ Gerber File Extension Report For: ltk-mw_mirror.GBR   4/6/2018  3:55:58 PM
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
 .GTL                Top Layer                               
-.GTO                Top Overlay                             
+.GTP                Top Paste                               
 .GBL                Bottom Layer                            
+.GTO                Top Overlay                             
 .GTS                Top Solder                              
 .GBS                Bottom Solder                           
-.GTP                Top Paste                               
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
 .GKO                Keep-Out Layer                          
