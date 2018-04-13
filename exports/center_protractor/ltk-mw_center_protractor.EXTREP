@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: ltk-mw_center_protractor.GBR   4/9/2018  6:45:54 PM
+Gerber File Extension Report For: ltk-mw_center_protractor.GBR   4/13/2018  2:33:43 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -7,13 +7,13 @@ Gerber File Extension Report For: ltk-mw_center_protractor.GBR   4/9/2018  6:45:
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
 .GTL                Top Layer                               
-.GTS                Top Solder                              
-.GBL                Bottom Layer                            
-.GBP                Bottom Paste                            
-.GBS                Bottom Solder                           
 .GTO                Top Overlay                             
 .GTP                Top Paste                               
+.GBL                Bottom Layer                            
+.GBP                Bottom Paste                            
+.GTS                Top Solder                              
+.GBS                Bottom Solder                           
 .GBO                Bottom Overlay                          
-.GKO                Keep-Out Layer                          
 .GM1                Mechanical 1                            
+.GKO                Keep-Out Layer                          
 ------------------------------------------------------------------------------------------
