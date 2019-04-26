@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: ltk-mw_center_protractor.PcbDoc   4/13/2018  2:33:43 PM
+NCDrill File Report For: ltk-mw_center_protractor.PcbDoc   26/04/2019  02:46:22
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,8 +7,8 @@ ASCII RoundHoles File : ltk-mw_center_protractor.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      236mil (6mm)                                              Round             2         PTH        0.00inch (0.00mm)
-T2      344mil (8.75mm)                                           Round             1         PTH        0.00inch (0.00mm)
+T1      236mil (6mm)                                              Round             2         NPTH       0.00inch (0.00mm)
+T2      344mil (8.75mm)                                           Round             1         NPTH       0.00inch (0.00mm)
 ----------------------------------------------------------------------------------------------------------------------------------
 Totals                                                                              3
 
