@@ -1,0 +1,139 @@
+%!PS
+%%Title: PhotonSieve
+%%Creator: Guillermo Peñate * pje.colon at gmail.com
+%%LastModified: March 17, 2004
+%%DocumentPaperSizes: Letter
+%%Guillermo Peñate © 2003
+
+%***********************************************************************
+% Change the following numbers to suit your Photon Sieve
+%***********************************************************************
+
+/F 75 def    % change the number to whatever focal length in mm you want
+                
+/CZ 6 def    % change number to whatever number of rings of pinholes
+             % (zones) you want the Sieve to have. 
+ 
+/M  35 def   % change number to whatever magnification you want the
+             % printed sieve to be
+
+/S 2 def     % extra width to add to pinhole diameter with the purpose of 
+             % deciding the number of pinholes in each zone.  Use 2 or more,
+             % decimals are ok (i.e.: 2.3). The larger the number the 
+             % less pinholes in each ring.
+
+/SLR 50 def   % focal length in millimeters you plan to use on your SLR 
+              % to take the picture of the printed Photon Sieve created by this 
+              % script. This parameter has no bearing on the printed Sieve
+              % it is asked just to suggest you the correct distance from your
+              % SLR camera to this printed Photon Sieve.
+
+
+%************************************************************************
+% DO NOT ALTER THE SCRIPT BELLOW THIS LINE
+%************************************************************************
+
+/R 1 def       % This is an extra magnification or reduction factor   
+               % I suggest you leave it alone (G.Peñate uses 0.97)
+
+/Z CZ 2 mul def                               % Z = # of zones (even number)
+/inch {72 mul} def                            % converts inches to points
+/mm {25.4 div inch} def                       % converts mm to points
+/pointsTOmm {72 div 25.4 mul} def             % converts points to mm
+/pi 3.1415926536 def                          % define pi
+/area 0 def                                   % initialize variable area to store
+                                              % the sum of areas of all pinholes
+/counter 0 def                                % initialize # of holes' counter
+/logsqrt2 2 sqrt log def                      % log(sqrt(2))
+
+/center 0.0022 F mul sqrt M mul R mul mm def  % size of central pinhole in points  
+
+gsave
+
+4.25 inch 5.5 inch translate   % set origin in the middle of a letter size paper
+
+Z -2 2 {                                                % loops to print rings 
+/z1 exch 1 sub def                                      % z1 = # of lowest ring being calculated 
+/zw z1 1 add sqrt z1 sqrt sub center mul 2 div def      % zone width
+/zcr z1 sqrt center mul zw add def                      % zone center diameter
+/perimeter pi zcr mul def                               % perimeter of zcr
+/radius zcr 2 div def                                   % radius of zcr
+/holes zw 1.5 mul S add perimeter exch div ceiling def  % # of piholes in ring
+/degrees 360 holes div def                              % degrees of separation between pinholes
+/starting degrees 13 sub def                            % avoids start at 0 degrees
+/pinhole zw 1.5 mul 2 div def                           % radius of pinhole in ring
+/area pinhole dup mul pi mul holes mul area add def     % keeps tracks of areas of pinholes
+
+starting rotate                        % set the starting angle to avoid starting at 0 degrees              
+1 1 holes {                            % loops to print holes in a ring
+      degrees rotate                   % rotate axis by pinholes degrees of separation 
+      radius 0 pinhole 0 360 arc fill  % draw the pinhole
+      /counter counter 1 add def       % counter of # of holes printed
+           } for                       % return to next # in ring  
+        } for                          % return to next ring 
+
+
+area sqrt R div M div pointsTOmm dup mul      % translate area from points^2 to mm^2
+/fstop1 exch F exch pi div 4 mul sqrt div def % find fstop of pinhole sieve 
+/n fstop1 8 div log logsqrt2 div def          % stops from f/8 to fstop1
+/nf n truncate def                            % find integer of n
+/fstop3 n nf sub def                          % find decimal portion of f/stop
+nf 5 eq                                       % start of portion that finds the photon sieve full stop
+   {/fstop2 45 def}                           
+   {nf 2 div truncate 2 mul nf sub 0 eq 
+       {/fstop2 nf 2 div 2 exch exp 8 mul def}
+       {nf 1 eq 
+           {/fstop2 11 def}
+           {nf 3 eq 
+               {/fstop 22 def}
+               {/fstop2 nf 5 sub 2 div 2 exch exp 45 mul def}
+            ifelse}
+        ifelse}
+    ifelse}
+ifelse                                        % end of finding full stop of photon sieve
+
+/fint fstop2 cvi def                 % prepare full stop for printing
+/fdec fstop3 100 mul round cvi def   % prepare decimal portion for printing
+
+
+/dist M SLR mul SLR add def          % Calculate distace between printed Zone plate
+                                     % and the optical center of the lens used to 
+                                     % photograph it
+
+
+R dist counter M fdec fint F         % stack parameter to be printed
+
+
+/str 50 string def                   % define string
+ 
+grestore
+
+/Times-Roman findfont
+8 scalefont
+setfont
+.6 setgray
+1 inch 0.5 inch moveto
+(Photon Sieve  ) show
+str cvs show
+(mm    f/) show
+str cvs show
+( +0.) show
+str cvs show
+(    Mag=X) show
+str cvs show
+(   #Holes = ) show
+str cvs show
+(      Distance to SLR's lens = ) show
+str cvs show
+(mm) show
+
+
+%% (    XtraReduct = ) show
+%% str cvs show
+
+
+6 inch .5 inch moveto
+(Guillermo Penate © 2003) show
+
+showpage 
+

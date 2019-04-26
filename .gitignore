@@ -29,3 +29,4 @@ scripts/__pycache__/
 *.dwl2
 ._.DS_Store
 .DS_Store
+*Icon
