@@ -27,3 +27,5 @@ scripts/__pycache__/
 *.bak
 *.dwl
 *.dwl2
+._.DS_Store
+.DS_Store
