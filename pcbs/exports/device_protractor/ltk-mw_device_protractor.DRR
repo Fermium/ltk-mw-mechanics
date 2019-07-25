@@ -1,16 +1,15 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: ltk-mw_device_protractor.PcbDoc   26/04/2019  02:46:22
+NCDrill File Report For: ltk-mw_device_protractor.PcbDoc   26/07/2019  00:55:31
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
-ASCII RoundHoles File : ltk-mw_device_protractor-RoundHoles.TXT
-ASCII SlotHoles File : ltk-mw_device_protractor-SlotHoles.TXT
+ASCII RoundHoles File : ltk-mw_device_protractor.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      130mil (3.3mm)                                            Slot              1         NPTH       0.00inch (0.00mm)
-T2      276mil (7mm)                                              Round             1         NPTH       0.00inch (0.00mm)
+T1      787mil (20mm)                                             Round             1         PTH        0.00inch (0.00mm)
+T2      211mil (5.35mm)                                           Round             3         NPTH       0.00inch (0.00mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              2
+Totals                                                                              4
 
 Total Processing Time (hh:mm:ss) : 00:00:00

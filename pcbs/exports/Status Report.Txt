@@ -1,0 +1,10 @@
+Output: ruler
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [ltk-mw_device_index.PcbDoc]
+   Generated File[ltk-mw_device_index.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 00:55:34 On 26/07/2019
