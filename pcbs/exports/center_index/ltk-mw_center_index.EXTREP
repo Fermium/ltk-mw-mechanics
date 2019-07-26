@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: ltk-mw_center_index.GBR   26/07/2019  01:42:19
+Gerber File Extension Report For: ltk-mw_center_index.GBR   26/07/2019  19:40:00
 ------------------------------------------------------------------------------------------
 
 
@@ -8,12 +8,6 @@ Layer Extension     Layer Description
 ------------------------------------------------------------------------------------------
 .GTO                Top Overlay                             
 .GTP                Top Paste                               
-.GTS                Top Solder                              
 .GTL                Top Layer                               
-.GBL                Bottom Layer                            
-.GBS                Bottom Solder                           
-.GBP                Bottom Paste                            
-.GBO                Bottom Overlay                          
 .GM1                Board outline                           
-.GKO                Keep-Out Layer                          
 ------------------------------------------------------------------------------------------

@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: ltk_mw_fresnel_plates.GBR   26/07/2019  01:42:18
+Gerber File Extension Report For: ltk_mw_fresnel_plates.GBR   26/07/2019  19:39:59
 ------------------------------------------------------------------------------------------
 
 
@@ -7,13 +7,8 @@ Gerber File Extension Report For: ltk_mw_fresnel_plates.GBR   26/07/2019  01:42:
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
 .GTO                Top Overlay                             
-.GTP                Top Paste                               
 .GTS                Top Solder                              
 .GTL                Top Layer                               
-.GBL                Bottom Layer                            
-.GBS                Bottom Solder                           
-.GBP                Bottom Paste                            
-.GBO                Bottom Overlay                          
 .GM1                Mechanical 1                            
-.GKO                Keep-Out Layer                          
+.GM2                Mechanical 2                            
 ------------------------------------------------------------------------------------------
